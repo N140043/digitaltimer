@@ -1,0 +1,119 @@
+.bg-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1, #ffffff);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+}
+@media (min-width: 767px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.stop-watch-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 767px) {
+  .stop-watch-main-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+  }
+}
+.time-container {
+  height: 250px;
+  width: 250px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display-time-container {
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+.timer-heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+.timer-text {
+  font-size: 14px;
+  margin-top: 0px;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.buttons-main-container {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons-top-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  height: 20px;
+  margin-right: 7px;
+}
+.play-buttons {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+.para-text {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.button-bottom-container {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  justify-content: center;
+}
+.increase-button {
+  font-size: 18px;
+  font-weight: 700;
+}
+.increase-timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  padding: 5px 15px;
+  font-weight: 700;
+  margin: 5px;
+}
